@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Urlap</title>
+</head>
+<body>
+    <h2>Szállítási Cím Módosítása</h2>
+    <div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="név"><p>Név*</p></label>
+                    <input id="nev" type="text"/>
+
+                </td>
+               
+                <td>
+                    <label for="Telefonszám"><p>Telefonszám</p></label>
+                    <select>
+                        <option>+36</option>
+                        <option>+1</option>
+                    </select>
+                    
+                </td>
+                 <td>
+                    <label for="telefonsajat"><p>.</p></label>
+                    
+                    <input id="telesajat" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="iranyitoszam"><p>Irányítószám</p></label>
+                    <input id="iranyitoszam" type="text" placeholder="4032">
+                </td>
+                <td colspan="2">
+                    <label for="varos"><p>Város</p></label>
+                    <select>
+                        <option selected>Debrecen</option>
+                        <option>Budapest</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="orszag"><p>Ország</p></label>
+                    <select id="orszag">
+                        <option value="Magyar" selected>Magyarország</option>
+                        <option value="orosz">Oroszország</option>
+                        <option value="Japán">Japán</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <label for="cim"><p>Cím</p></label>
+                    <input id="cim" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
